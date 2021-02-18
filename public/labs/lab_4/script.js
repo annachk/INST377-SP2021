@@ -13,6 +13,7 @@ window.onload = onload;
 //     }
 //   })
 // }
-cy.task("htmlvalidateOptions", null, { log: false }).then((options) => {
-    cy.document({ log: false }).then((document) => {
-        const source = utils_1.getPageSource(document)}
+
+// cy.task("htmlvalidateOptions", null, { log: false }).then((options) => {
+//     cy.document({ log: false }).then((document) => {
+//         const source = utils_1.getPageSource(document)}
