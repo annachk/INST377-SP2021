@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Kafrune's Lab 4</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Anna Kafrune's Lab 4</h1>
+        <form action="/api" method="post">
+            <!-- <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"> -->
+            <ul class="flex-outer">
+                <li>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your first name here">
+                </li>
+                <li>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter your last name here">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email here">
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone here">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea rows="5" cols="33" name="message" id="message" placeholder="Enter your message here"></textarea>
+                </li>
+                <li>
+                    <p>Age</p>
+                    <ul class="flex-inner">
+                        <li>
+                            <input type="checkbox" name="eighteen-to-thirtyfive" id="eighteen-to-thirtyfive">
+                            <label for="eighteen-to-thirtyfive">18-35</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="thirtyfive-to-fifty" id="thirtyfive-to-fifty">
+                            <label for="thirtyfive-to-fifty">35-50</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="fifty-to-sixtyfive" id="fifty-to-sixtyfive">
+                            <label for="fifty-to-sixtyfive">50-65</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button type="submit" name="submitbutton" id="submitbutton">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <script scr="./script.js"></script>
+</body>
+</html>
