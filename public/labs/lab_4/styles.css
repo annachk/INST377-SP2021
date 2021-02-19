@@ -1,16 +1,24 @@
 body{
     background-color: rgb(155, 165, 255);
-    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+    font: normal 18px/1.5 "Times New Roman", "Helvetica Neue", sans-serif;
     color: rgb(0, 0, 0);
-    padding: 50px 0;
+    padding: 15px 0;
+}
+
+h1 {
+    /* width: 25%; */
+    margin: 0 auto;
+    padding-left: 450px;
+    padding-bottom: 60px;
 }
 
 .container {
-    width: 80%;
+    /* width: 80%; */
     max-width: 1200px;
     margin: 0 auto;
+    /* margin-left: 0; */
 }
-  
+
 .container * {
     box-sizing: border-box;
 }
@@ -22,8 +30,8 @@ body{
 }
   
 .flex-outer {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 950px;
+    margin: 0;
 }
   
 .flex-outer li,
@@ -46,8 +54,8 @@ body{
 .flex-outer li p {
     padding: 8px;
     font-weight: 300;
-    letter-spacing: .09em;
-    text-transform: uppercase;
+    letter-spacing: .0em;
+    /* text-transform: uppercase; */
 }
   
 .flex-outer > li > label,
@@ -73,7 +81,7 @@ body{
 }
   
 .flex-outer li button {
-    margin-left: auto;
+    margin-left: 0px;
     padding: 8px 16px;
     border: none;
     background: #333;
