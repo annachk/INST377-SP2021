@@ -125,7 +125,6 @@ describe('Lab 4', () => {
       .click()
       .then(() => {
         cy.contains('hello world', { matchCase: false });
-        });
       });
   });
 });
