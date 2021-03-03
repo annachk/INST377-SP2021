@@ -1,0 +1,22 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url('background.png');
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+}
+  
+.doodler {
+    width: 70px;
+    height: 70px;
+    background-image: url('doodler-testudo.png');
+    position: absolute;
+}
+  
+.platform {
+    width: 100px;
+    height: 51px;
+    background-image: url('doodler-umd.png');
+    position: absolute;
+}
