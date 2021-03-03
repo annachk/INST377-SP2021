@@ -17,6 +17,6 @@
 .platform {
     width: 100px;
     height: 51px;
-    background-image: url('doodler-umd.png');
+    background-image: url('platform-umd.png');
     position: absolute;
 }
